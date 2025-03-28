@@ -91,7 +91,8 @@ npm install
 npm run serve
 
     A interface estará acessível em: http://localhost:8080
+```
 
 📌 Observações Finais
 
-O projeto foi desenvolvido com foco em clareza, organização e boas práticas de engenharia de software. Funcionalidades como JOIN com nome da operadora, gráficos ou exportação de CSV podem ser adicionadas para expandir o sistema.
+Este projeto foi desenvolvido com foco em organização, clareza e boas práticas, simulando um ambiente real de trabalho e entregando uma solução funcional, escalável e pronta para evoluir.
