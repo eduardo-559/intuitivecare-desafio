@@ -15,13 +15,6 @@ Este projeto foi desenvolvido como parte do processo seletivo da IntuitiveCare. 
 
 ---
 
-## 📂 Estrutura do Projeto
-
-intuitivecare-desafio/ ├── backend/ # API Flask │ ├── app.py │ └── requirements.txt ├── frontend/ # Aplicação Vue.js ├── banco_dados/ # Dados brutos organizados │ ├── demonstrativos/ │ │ ├── 2023/ │ │ └── 2024/ │ └── operadoras/ ├── transformar_dados.py # Script de extração e transformação dos PDFs ├── dados_extraidos.csv # Resultado da conversão dos anexos └── README.md # (Este arquivo)
-
-
----
-
 ## 🧠 Funcionalidades
 
 - 🗂 Extração automatizada de dados tabulares a partir de arquivos PDF.
@@ -45,9 +38,10 @@ pip install -r requirements.txt
 python app.py
 
     A API estará disponível em: http://localhost:5000
+```
 
-2. Banco de Dados
-
+### 2. Banco de Dados
+```
 Crie o banco e as tabelas no PostgreSQL:
 
 CREATE DATABASE ans;
@@ -89,8 +83,9 @@ CREATE TABLE demonstrativos (
 );
 
 Utilize o comando \COPY para importar os arquivos .csv contidos na pasta banco_dados/.
-3. Frontend (Vue.js)
-
+```
+### 3. Frontend (Vue.js)
+```
 cd frontend
 npm install
 npm run serve
@@ -100,9 +95,3 @@ npm run serve
 📌 Observações Finais
 
 O projeto foi desenvolvido com foco em clareza, organização e boas práticas de engenharia de software. Funcionalidades como JOIN com nome da operadora, gráficos ou exportação de CSV podem ser adicionadas para expandir o sistema.
-✉️ Contato
-
-Eduardo
-Desenvolvedor Full Stack
-💼 GitHub: github.com/seu-usuario
-📧 E-mail: [seu email aqui, opcional]
